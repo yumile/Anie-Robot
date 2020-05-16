@@ -1,6 +1,6 @@
 ![Anie](https://avatarfiles.alphacoders.com/207/207588.jpg)
 # Anie Robot 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/43872978473d46a0a44de96c96e62e27)](https://app.codacy.com/manual/Avishekbhattacharjee/Anie-Robot?utm_source=github.com&utm_medium=referral&utm_content=Avishekbhattacharjee/Anie-Robot&utm_campaign=Badge_Grade_Dashboard)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/43872978473d46a0a44de96c96e62e27)](https://app.codacy.com/manual/Avishekbhattacharjee/Anie-Robot?utm_source=github.com&utm_medium=referral&utm_content=Avishekbhattacharjee/Anie-Robot&utm_campaign=Badge_Grade_Dashboard)  [![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
 A modular Telegram Python bot running on python3 with a sqlalchemy database.
 
