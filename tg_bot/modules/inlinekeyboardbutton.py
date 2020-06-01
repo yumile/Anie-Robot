@@ -89,7 +89,7 @@ class InlineKeyboardButton(TelegramObject):
 - /inlinekeyboardbutton :<URL> Use It To Create A Button URL
 """
 
-__mod_name__ = ""
+__mod_name__ = "INLINEKEYBOARDBUTTON"
 
 INLINEKEYBOARDBUTTON_HANDLER = DisableAbleCommandHandler("inlinekeyboardbutton", inlinekeyboardbutton, pass_args=True)
 
