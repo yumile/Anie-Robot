@@ -368,6 +368,7 @@ def devlist(bot: Bot, update: Update):
 
 
 __help__ = """
+This Module is created For Bot Devs. 
  - /addsudo - add sudo users
  - /addsupport - add support users
  - /addwhitelist - add whitelist users
