@@ -43,7 +43,7 @@ def gps(bot: Bot, update: Update, args: List[str]):
 
 
 __help__ = """
-This Module is created by @Unknown_Hacker_X . 
+This Module is created by @LeaderMasked . 
 - /gps: <location> Get gps location..
 """
 
