@@ -91,7 +91,7 @@ def gban(bot: Bot, update: Update, args: List[str]):
 
         return
 
-    message.reply_text("⚡️ *Snaps the Banhammer* ⚡️ For Ungban Appeal Join @AnieSupport")
+    message.reply_text("⚡️ *Snaps the Banhammer* ⚡️ For Ungban Appeal Join @RemoticBotSupport")
 
     banner = update.effective_user  # type: Optional[User]
     send_to_list(bot, SUDO_USERS + SUPPORT_USERS,
@@ -301,7 +301,7 @@ __help__ = """
 *Admin only:*
  - /gbanstat <on/off/yes/no>: Will disable the effect of global bans on your group, or return your current settings.
 
-Gbans, also known as global bans, are used by the bot owners to ban spammers across all groups. For Gban Request Join @AnieSupport. This helps protect \
+Gbans, also known as global bans, are used by the bot owners to ban spammers across all groups. For Gban Request Join @RemoticBotSupport. This helps protect \
 you and your groups by removing spam flooders as quickly as possible. They can be disabled for you group by calling \
 /gbanstat
 """
