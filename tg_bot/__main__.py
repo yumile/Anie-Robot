@@ -31,14 +31,12 @@ PM_START_TEXT = """
 Hello    {}, My Name Is {} !
 
 I am a group management bot With Some Special Features.
-To add me to your group click ["HERE"](t.me/Anierobot?startgroup=botstart)
+To add me to your group click ["HERE"](t.me/Remotic_Bot?startgroup=botstart) . 
 You can find my list of available commands with /help.
  
-See [Basic Configuration Checklist](t.me/Anienews/3) on how to secure your group.
-The support group chat is at [Anie Support](t.me/aniesupport).
-
-The Source Of The Bot is [Here](https://github.com/Avishekbhattacharjee/Anie-Robot/)
-
+Follow Our Channel [Remotic Official](t.me/RemoticBotUpdates) .
+The support group chat is at [Remotic Support](t.me/RemoticBotSupport) . 
+Made With Love And Managed By [This Awesome Person](https://t.me/LeaderMasked)  . 
 
 """
 
@@ -148,12 +146,12 @@ def start(bot: Bot, update: Update, args: List[str]):
             first_name = update.effective_user.first_name
             update.effective_message.reply_text(
                 PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
-                parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="ADD ME TO YOUR GROUP",
+                parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="Add Me To Your Groups",
                                                                        url="t.me/{}?startgroup=true".format(bot.username))]]))
 
 
     else:
-        update.effective_message.reply_text("Yo, whadup?🤧")
+        update.effective_message.reply_text("Hey! PM Me If You Have Any Questions On How To Use Me.")
 
 
 def send_start(bot, update):
